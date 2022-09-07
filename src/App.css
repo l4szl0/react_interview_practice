@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5db075;
+  font-family: 'Inter', sans-serif;
+}
+
+.App {
+  display: flex;
+}
+
+.header {
+  position: absolute;
+  width: 377px;
+  height: 116px;
+  left: calc(50% - 377px / 2 + 2px);
+  top: 0;
+  margin-top: 155px;
+  margin-bottom: 1107px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 116px;
+  text-align: center;
+  color: #000000;
+}
+
+.content {
+  position: relative;
+  min-width: 887px;
+  height: 639px;
+  background-color: #ffffff;
+  margin: 334px 552px 405px 521px;
+  overflow: hidden;
+}
+
+input {
+  margin: 77px 16px 67px 16px;
+  width: calc(100% - 32px);
+  height: 50px;
+  border-radius: 100px;
+  border: 1px solid #e8e8e8;
+  background: #f6f6f6;
+}
+
+input[type=text] {
+  padding-left: 16px;
+  padding-top: 3px;
+}
+
+::placeholder {
+  color: #bdbdbd;
+}
+
+.users-container {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+.user-box {
+  width: calc(100% - 67px);
+  height: 33px;
+  margin: 16px 33px;
+  border-bottom: 1px solid #E8E8E8;
+}
